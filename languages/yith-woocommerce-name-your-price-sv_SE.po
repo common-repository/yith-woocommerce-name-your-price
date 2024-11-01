@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Name Your Price\n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2021-04-09 15:04:49+00:00\n"
+"PO-Revision-Date: 2015-11-17 07:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: includes/classes/class.yith-wc-name-your-price-admin.php:120
+#: includes/classes/class.yith-wc-name-your-price.php:236
+#: plugin-options/general-settings-options.php:25
+#: plugin-options/general-settings-options.php:26
+msgid "Name Your Price"
+msgstr "Ange ditt pris"
+
+#: includes/classes/class.yith-wc-name-your-price-admin.php:121
+#, fuzzy
+msgid "Enable \"Name Your Price\" for this product"
+msgstr "Aktivera “Ange ditt pris” för den här produkten"
+
+#: includes/classes/class.yith-wc-name-your-price-frontend.php:344
+msgid "Choose Price"
+msgstr "Välj pris"
+
+#: includes/classes/class.yith-wc-name-your-price.php:227
+msgid "General Settings"
+msgstr "Generella inställningar"
+
+#: includes/classes/class.yith-wc-name-your-price.php:230
+msgid "Premium Version"
+msgstr "Premiumversion"
+
+#: includes/functions.yith-name-your-price.php:40
+#, fuzzy
+msgid "Please enter a value greater to 0"
+msgstr "Vänligen ange ett värde lika med eller högre än 0"
+
+#: includes/functions.yith-name-your-price.php:41
+msgid "Please enter a valid price"
+msgstr "Vänligen ange ett giltigt pris"
+
+#: init.php:41
+msgid ""
+"YITH WooCommerce Name Your Price is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce ange ditt eget pris är aktiverat men inte effektivt. Det "
+"kräver WooCommerce för att fungera."
+
+#: init.php:54
+msgid ""
+"You can't activate the free version of YITH WooCommerce Name Your Price "
+"while you are using the premium one."
+msgstr ""
+"Du kan inte aktivera gratisversionen av YITH WooCommerce ange ditt eget pris "
+"medan du använder premiumversionen."
+
+#: plugin-options/general-settings-options.php:14
+msgid "General settings"
+msgstr "Generella inställningar"
+
+#: plugin-options/general-settings-options.php:20
+msgid "\"Name Your Price\" button text "
+msgstr "“Ange ditt eget pris”-knappens text"
+
+#: plugin-options/general-settings-options.php:21
+msgid "Set the text of the \"Name Your Price\" button of the Shop page "
+msgstr "Ange texten för “Ange ditt eget pris”-knappen i shoppen"
+
+#: plugin-options/general-settings-options.php:29
+msgid "Allow free purchase"
+msgstr ""
+
+#: plugin-options/general-settings-options.php:30
+msgid ""
+"Allow your customers to purchase your \"Name your price\" product for free"
+msgstr ""
+
+#. translators: %1$s is the tag <span>, %2$s is the tag </span>
+#: templates/admin/premium.php:248 templates/admin/premium.php:379
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Name Your Price"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:252 templates/admin/premium.php:383
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium.php:253 templates/admin/premium.php:384
+#, fuzzy
+msgid "to the premium version"
+msgstr "Premiumversion"
+
+#: templates/admin/premium.php:259
+#, fuzzy
+msgid "Premium Features"
+msgstr "Premiumversion"
+
+#: templates/admin/premium.php:267
+msgid "For all products of the shop "
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>
+#: templates/admin/premium.php:272
+msgid ""
+"You will be free to offer an open price for many more products. With the "
+"premium version of the plugin, you can offer this option on %1$sgrouped "
+"products%2$s and for each %1$ssingle variation%2$s of the products of the "
+"shop."
+msgstr ""
+
+#: templates/admin/premium.php:283
+msgid "Suggested price"
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>, %3$s is <br>
+#: templates/admin/premium.php:288
+msgid ""
+"Many studies about marketing strategies prove that %1$susers often choose a "
+"price similar to the one suggested by the vendor%2$s, even if they are free "
+"to choose. %3$sIf you think this suits you, you will just have to suggest a "
+"price for a product, and it will be automatically showed in the detail page."
+msgstr ""
+
+#: templates/admin/premium.php:305
+msgid "Minimum and maximum price"
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>
+#: templates/admin/premium.php:310
+msgid ""
+"Prevent users to purchase products with any amount or even freely. Set a "
+"%1$sminimum%2$s and a %1$smaximum price%2$s users have to follow to add "
+"products to cart, avoiding unpleasant inconveniences."
+msgstr ""
+
+#: templates/admin/premium.php:321
+msgid "Product categories"
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>
+#: templates/admin/premium.php:326
+msgid ""
+"Thanks to the bulk action the plugin offers, you can configure easily the "
+"rules about open prices for all products that belong to the same category, "
+"%1$swithout acting on every single product%2$s."
+msgstr ""
+
+#: templates/admin/premium.php:343
+msgid "Customized labels"
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>
+#: templates/admin/premium.php:348
+msgid ""
+"You can customize all %1$slabels%2$s and %1$serror messages%2$s showed by "
+"the plugin. In this way, you will be able to add the text you want for your "
+"users."
+msgstr ""
+
+#: templates/admin/premium.php:359
+msgid "Compatibility with YITH plugins"
+msgstr ""
+
+#. translators: %1$s is the tag <b>, %2$s is the tag </b>
+#: templates/admin/premium.php:364
+msgid ""
+"Integrate perfectly the features of the plugin with those of %1$sYITYH "
+"WooCommerce Multi Vendor%2$s. Allows your users to set the open price for "
+"the products of their shops."
+msgstr ""
+
+#: templates/metaboxes/general_product_data_name_your_price_enabled.php:24
+msgid ""
+"These fields have been deactivated because of the \"Name Your Price\" option"
+msgstr ""
+"Dessa fält har blivit avaktiverade på grund utav “Ange ditt pris”-valet"
+
+#: templates/single-product/nameyourprice-price-form.php:18
+msgid "Choose the amount"
+msgstr "Ange belopp"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Name Your Price</strong></code> allows your "
+"users to choose the price they want to pay for single product. <a href ="
+"\"https://yithemes.com\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+
+#, fuzzy
+#~ msgid "YITH WooCommerce Name Your Price"
+#~ msgstr "Ange ditt pris"
+
+#~ msgid "Settings"
+#~ msgstr "Inställnigar"
+
+#~ msgid "Premium live demo"
+#~ msgstr "Premiumdemo live"
+
+#~ msgid "Live demo"
+#~ msgstr "Live demo"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Tilläggets dokumentation"
